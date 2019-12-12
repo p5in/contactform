@@ -13,8 +13,8 @@ var initialValue = {
   submitform: false,
   nameerror: "enter name",
   emailerror: "enter email",
-  passerror: "enter pass",
-  numbererror: "enter error"
+  passerror: "enter password",
+  numbererror: "enter mobile number"
 };
 const validEmailRegex = RegExp(
   /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
